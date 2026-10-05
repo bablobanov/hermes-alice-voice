@@ -1,0 +1,25 @@
+name: alice-voice
+label: Private Alice voice input
+kind: standalone
+version: 0.3.0
+description: Private Alice voice input via stock gateway injection; responses only in Telegram
+requires_hermes: ">=0.21.3"
+author: Ilya Balobanov
+requires_env:
+  - ALICE_WEBHOOK_SECRET
+platforms:
+  - telegram
+config_schema:
+  enabled:
+    type: bool
+    default: false
+  skill_id:
+    type: str
+  session_key:
+    type: str
+  port:
+    type: int
+    default: 8788
+  owner_user_id:
+    type: str
+    default: ""
