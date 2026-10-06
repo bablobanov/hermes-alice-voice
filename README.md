@@ -1,5 +1,7 @@
 # Alice voice input for Hermes
 
+![Alice sends a voice task to Hermes: a violet holographic assistant and the Hermes robot reach toward a visible audio waveform](assets/hero.png)
+
 [Русский](README.ru.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
 
 **0.3.0 — voice input only, without Hermes SDK patches.** A private Yandex Alice skill sends recognized text to one existing Hermes Telegram DM session. Hermes processes the task through its normal gateway; the result is delivered in Telegram, not spoken by Alice.
