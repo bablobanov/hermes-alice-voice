@@ -10,11 +10,10 @@ Requests run with the configured Hermes session's existing permissions. Keep
 normal gateway authorization, tool approvals, HTTPS, proxy limits, and log hygiene.
 See README.md for the complete boundaries and delivery limitations.
 
-Do not publish an exploitable issue or any secrets. If available, use this
-repository's GitHub Security → Report a vulnerability private reporting feature.
-Otherwise privately contact the maintainer through their GitHub profile; do not
-assume private reporting is enabled. Share a minimal synthetic reproducer,
-affected version, and impact, never your actual bearer URL or payload identifiers.
+Do not publish an exploitable issue or any secrets. Use this repository's GitHub
+Security → Report a vulnerability private reporting feature. Share a minimal
+synthetic reproducer, affected version, and impact, never your actual bearer URL
+or payload identifiers.
 
 If a bearer is disclosed, rotate ALICE_WEBHOOK_SECRET in Hermes .env, update the
 private skill webhook, and restart the gateway. Disable the plugin while investigating.
